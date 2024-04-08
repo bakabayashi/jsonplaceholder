@@ -7,15 +7,15 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
-public class JsonplaceholderConfig {
+class JsonplaceholderConfig {
 
     @Bean
-    public ObjectMapper objectMapper() {
+    ObjectMapper objectMapper() {
         return new ObjectMapper();
     }
 
     @Bean
-    public RestTemplate restTemplate() {
+    RestTemplate restTemplate() {
         return new RestTemplate();
     }
 }

@@ -24,7 +24,7 @@ class PostProcessingServiceTest {
     JsonSaver jsonSaver;
 
     @Test
-    public void shouldProcessPosts() {
+    void shouldProcessPosts() {
         //given
         when(postScrapper.retrievePosts()).thenReturn(List.of(
                 new Post(1L, "id1", "title1", "body1"),

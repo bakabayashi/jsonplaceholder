@@ -30,7 +30,7 @@ class JsonSaverTest {
 
     @Test
     @SneakyThrows
-    public void shouldSavePost() {
+    void shouldSavePost() {
         //given
         Post post = new Post(1L, "id1", "title", "lorem ipsum");
 
