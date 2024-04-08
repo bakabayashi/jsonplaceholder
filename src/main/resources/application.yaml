@@ -1,3 +1,7 @@
 spring:
   application:
     name: jsonplaceholder
+
+jsonscrapper:
+  posts-api: http://jsonplaceholder.typicode.com/posts
+  saved-posts-path: .
